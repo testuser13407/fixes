@@ -1,0 +1,277 @@
+TID: [2020-09-09 19:41:24,316]  INFO {org.wso2.carbon.server.extensions.PatchInstaller} -  Patch changes detected  {org.wso2.carbon.server.extensions.PatchInstaller}
+TID: [2020-09-09 19:41:24,623]  INFO {org.wso2.carbon.server.util.PatchUtils.console} -  Backed up plugins to patch0000 {org.wso2.carbon.server.util.PatchUtils.console}
+TID: [2020-09-09 19:41:24,714]  INFO {org.wso2.carbon.server.util.PatchUtils.console} -  Patch verification started {org.wso2.carbon.server.util.PatchUtils.console}
+TID: [2020-09-09 19:41:24,772]  INFO {org.wso2.carbon.server.util.PatchUtils.console} -  Patch verification successfully completed. {org.wso2.carbon.server.util.PatchUtils.console}
+TID: [-1] [] [2020-09-09 19:41:28,883]  WARN {org.apache.axiom.util.stax.dialect.StAXDialectDetector} -  Unable to determine dialect of the StAX implementation at bundleresource://12.fwk1667689440/ 
+TID: [-1] [] [2020-09-09 19:41:28,878]  WARN {org.apache.axiom.util.stax.dialect.StAXDialectDetector} -  Unable to determine dialect of the StAX implementation at bundleresource://12.fwk1667689440/ 
+TID: [-1234] [] [2020-09-09 19:41:29,095]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Starting WSO2 Carbon... 
+TID: [-1234] [] [2020-09-09 19:41:29,096]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Operating System : Linux 4.15.0-1045-aws, amd64 
+TID: [-1234] [] [2020-09-09 19:41:29,096]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Home        : /opt/jdk8u222-b10/jre 
+TID: [-1234] [] [2020-09-09 19:41:29,096]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Version     : 1.8.0_222 
+TID: [-1234] [] [2020-09-09 19:41:29,096]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java VM          : OpenJDK 64-Bit Server VM 25.222-b10,AdoptOpenJDK 
+TID: [-1234] [] [2020-09-09 19:41:29,096]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Carbon Home      : /home/wso2user/wso2is-5.8.0 
+TID: [-1234] [] [2020-09-09 19:41:29,096]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Temp Dir    : /home/wso2user/wso2is-5.8.0/tmp 
+TID: [-1234] [] [2020-09-09 19:41:29,097]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  User             : root, en-null, Etc/UTC 
+TID: [-1] [] [2020-09-09 19:41:29,248]  INFO {org.wso2.carbon.crypto.provider.internal.DefaultCryptoProviderComponent} -  'CryptoService.Secret' property has not been set. 'org.wso2.carbon.crypto.provider.SymmetricKeyInternalCryptoProvider' won't be registered as an internal crypto provider. Please set the secret if the provider needs to be registered. 
+TID: [-1] [] [2020-09-09 19:41:29,366]  INFO {org.wso2.carbon.event.output.adapter.kafka.internal.ds.KafkaEventAdapterServiceDS} -  Successfully deployed the Kafka output event adaptor service 
+TID: [-1] [] [2020-09-09 19:41:29,654]  INFO {org.wso2.carbon.identity.oauth.uma.grant.internal.UMA2GrantServiceComponent} -  Policy evaluator registered successfully: DefaultPolicyEvaluator 
+TID: [-1] [] [2020-09-09 19:41:29,655]  INFO {org.wso2.carbon.identity.oauth.uma.grant.internal.UMA2GrantServiceComponent} -  UMA Grant component activated successfully. 
+TID: [-1234] [] [2020-09-09 19:41:30,034]  INFO {org.wso2.carbon.ldap.server.configuration.LDAPConfigurationBuilder} -  KDC server is disabled. 
+TID: [-1] [] [2020-09-09 19:41:32,363]  INFO {org.wso2.carbon.mex.internal.Office365SupportMexComponent} -  Office365Support MexServiceComponent bundle activated successfully.. 
+TID: [-1] [] [2020-09-09 19:41:32,370]  INFO {org.wso2.carbon.mex2.internal.DynamicCRMCustomMexComponent} -  DynamicCRMSupport MexServiceComponent bundle activated successfully. 
+TID: [-1234] [] [2020-09-09 19:41:34,189]  INFO {org.wso2.carbon.consent.mgt.core.internal.ConsentManagerComponent} -  ConsentManagerComponent is activated. 
+TID: [-1234] [] [2020-09-09 19:41:35,136]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} -  Configured Registry in 103ms 
+TID: [-1234] [] [2020-09-09 19:41:35,214]  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} -  Registry Mode    : READ-WRITE 
+TID: [-1234] [] [2020-09-09 19:41:35,354]  INFO {org.wso2.carbon.metrics.impl.util.JmxReporterBuilder} -  Creating JMX reporter for Metrics with domain 'org.wso2.carbon.metrics' 
+TID: [-1234] [] [2020-09-09 19:41:35,366]  INFO {org.wso2.carbon.metrics.impl.util.JDBCReporterBuilder} -  Creating JDBC reporter for Metrics with source 'ip-10-1-1-151.us-east-2.compute.internal', data source 'jdbc/WSO2MetricsDB' and 60 seconds polling period 
+TID: [-1234] [] [2020-09-09 19:41:35,389]  INFO {org.wso2.carbon.metrics.impl.reporter.AbstractReporter} -  Started JDBC reporter for Metrics 
+TID: [-1234] [] [2020-09-09 19:41:35,390]  INFO {org.wso2.carbon.metrics.impl.reporter.AbstractReporter} -  Started JMX reporter for Metrics 
+TID: [-1234] [] [2020-09-09 19:41:38,132]  INFO {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Default Embedded Solr Server Initialized 
+TID: [-1234] [] [2020-09-09 19:41:38,375]  INFO {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent} -  Carbon UserStoreMgtDSComponent activated successfully. 
+TID: [-1] [] [2020-09-09 19:41:45,930]  INFO {org.apache.catalina.startup.TaglibUriRule} -  TLD skipped. URI: http://tiles.apache.org/tags-tiles is already defined 
+TID: [-1] [] [2020-09-09 19:41:46,060]  INFO {org.wso2.carbon.attachment.mgt.server.internal.AttachmentServiceComponent} -  Initialising Attachment Server 
+TID: [-1] [] [2020-09-09 19:41:46,330]  INFO {org.wso2.carbon.attachment.mgt.core.dao.impl.jpa.AbstractJPAVendorAdapter} -  [Attachment-Mgt OpenJPA] DB Dictionary: h2 
+TID: [-1] [] [2020-09-09 19:41:46,331]  INFO {org.wso2.carbon.attachment.mgt.core.dao.impl.jpa.AbstractJPAVendorAdapter} -  [Attachment-Mgt OpenJPA] Generate DDL Enabled. 
+TID: [-1] [] [2020-09-09 19:41:46,467]  INFO {org.wso2.carbon.attachment.mgt.server.internal.AttachmentServiceComponent} -  Registering AttachmentServerService 
+TID: [-1] [] [2020-09-09 19:41:46,483]  INFO {org.wso2.carbon.bpel.core.internal.BPELServiceComponent} -  Initializing BPEL Engine........ 
+TID: [-1] [] [2020-09-09 19:41:46,512]  INFO {org.apache.ode.il.EmbeddedGeronimoFactory} -  Using embedded Geronimo transaction manager 
+TID: [-1] [] [2020-09-09 19:41:46,536]  INFO {org.apache.ode.il.dbutil.Database} -  ODE using external DataSource "bpsds". 
+TID: [-1] [] [2020-09-09 19:41:46,536]  INFO {org.wso2.carbon.bpel.core.ode.integration.BPELServerImpl} -  Using DAO Connection Factory class: org.apache.ode.dao.jpa.BPELDAOConnectionFactoryImpl 
+TID: [-1] [] [2020-09-09 19:41:46,536]  INFO {org.apache.ode.il.dbutil.Database} -  Using DAO Connection Factory class org.apache.ode.dao.jpa.BPELDAOConnectionFactoryImpl. 
+TID: [-1] [] [2020-09-09 19:41:46,634]  INFO {org.apache.ode.store.jpa.DbConfStoreConnectionFactory} -  ProcessStore initializing transaction manager using org.apache.ode.il.EmbeddedGeronimoFactory 
+TID: [-1] [] [2020-09-09 19:41:46,634]  INFO {org.apache.ode.il.EmbeddedGeronimoFactory} -  Using embedded Geronimo transaction manager 
+TID: [-1] [] [2020-09-09 19:41:46,676]  INFO {org.apache.ode.scheduler.simple.JdbcDelegate} -  Using database H2 major version 1 
+TID: [-1] [] [2020-09-09 19:41:46,677]  INFO {org.apache.ode.scheduler.simple.JdbcDelegate} -  Using database dialect: H2 
+TID: [-1] [] [2020-09-09 19:41:46,696]  INFO {org.wso2.carbon.bpel.core.ode.integration.BPELServerImpl} -  This node is a manager node 
+TID: [-1] [] [2020-09-09 19:41:46,709]  INFO {org.wso2.carbon.bpel.core.ode.integration.BPELServerImpl} -  Registering E4X Extension... 
+TID: [-1] [] [2020-09-09 19:41:46,712]  INFO {org.wso2.carbon.bpel.core.ode.integration.BPELServerImpl} -  Registering B4P Extension... 
+TID: [-1] [] [2020-09-09 19:41:46,715]  INFO {org.wso2.carbon.bpel.core.ode.integration.BPELServerImpl} -  Registering B4P Filter... 
+TID: [-1] [] [2020-09-09 19:41:46,721]  INFO {org.apache.ode.bpel.engine.BpelServerImpl} -  BPEL Server Started. 
+TID: [-1] [] [2020-09-09 19:41:46,721]  INFO {org.wso2.carbon.bpel.core.ode.integration.BPELServerImpl} -  Registering MBeans 
+TID: [-1] [] [2020-09-09 19:41:46,760]  INFO {org.wso2.carbon.humantask.core.internal.HumanTaskServiceComponent} -  Initialising HumanTask Server 
+TID: [-1] [] [2020-09-09 19:41:46,787]  INFO {org.apache.ode.il.EmbeddedGeronimoFactory} -  Using embedded Geronimo transaction manager 
+TID: [-1] [] [2020-09-09 19:41:46,796]  INFO {org.wso2.carbon.humantask.core.dao.jpa.AbstractJPAVendorAdapter} -  [HT OpenJPA] DB Dictionary: h2 
+TID: [-1] [] [2020-09-09 19:41:46,796]  INFO {org.wso2.carbon.humantask.core.dao.jpa.AbstractJPAVendorAdapter} -  [HT OpenJPA] Generate DDL Enabled. 
+TID: [-1] [] [2020-09-09 19:41:46,837]  INFO {org.wso2.carbon.humantask.core.internal.HumanTaskServiceComponent} -  Registering Axis2ConfigurationContextObserver 
+TID: [-1] [] [2020-09-09 19:41:46,847]  INFO {org.wso2.carbon.humantask.core.internal.HumanTaskServiceComponent} -  Registering HT related MBeans 
+TID: [-1] [] [2020-09-09 19:41:46,851]  INFO {org.wso2.carbon.humantask.core.internal.HumanTaskServiceComponent} -  MXBean for Human tasks registered successfully 
+TID: [-1234] [] [2020-09-09 19:41:47,470]  INFO {org.apache.axis2.deployment.ClusterBuilder} -  Clustering has been enabled 
+TID: [-1234] [] [2020-09-09 19:41:47,477]  INFO {org.apache.axis2.deployment.ClusterBuilder} -  Running in application mode 
+TID: [-1234] [] [2020-09-09 19:41:47,768]  INFO {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer} -  User Store Configuration Deployer initiated. 
+TID: [-1234] [] [2020-09-09 19:41:47,769]  INFO {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer} -  User Store Configuration Deployer initiated. 
+TID: [-1234] [] [2020-09-09 19:41:47,775]  INFO {org.wso2.carbon.bpel.deployer.BPELDeployer} -  Initializing BPEL Deployer for tenant -1234. 
+TID: [-1234] [] [2020-09-09 19:41:47,791]  INFO {org.wso2.carbon.humantask.deployer.HumanTaskDeployer} -  Initializing HumanTask Deployer for tenant -1234. 
+TID: [-1234] [] [2020-09-09 19:41:48,529]  INFO {org.apache.axis2.deployment.ModuleDeployer} -  Deploying module: addressing-1.6.1-wso2v35 - file:/home/wso2user/wso2is-5.8.0/repository/deployment/client/modules/addressing-1.6.1-wso2v35.mar 
+TID: [-1234] [] [2020-09-09 19:41:48,532]  INFO {org.apache.axis2.deployment.ModuleDeployer} -  Deploying module: rampart-1.6.1-wso2v34 - file:/home/wso2user/wso2is-5.8.0/repository/deployment/client/modules/rampart-1.6.1-wso2v34.mar 
+TID: [-1234] [] [2020-09-09 19:41:49,317]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: I18nEmailMgtConfigService {super-tenant} 
+TID: [-1234] [] [2020-09-09 19:41:49,322]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.email.mgt-1.0.24 -  
+TID: [-1234] [] [2020-09-09 19:41:49,839]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.identity.application.authentication.framework-5.12.387 -  
+TID: [-1234] [] [2020-09-09 19:41:50,038]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.identity.discovery-6.0.168 -  
+TID: [-1234] [] [2020-09-09 19:41:50,107]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.identity.governance-1.1.66 -  
+TID: [-1234] [] [2020-09-09 19:41:50,156]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: AccountCredentialMgtConfigService {super-tenant} 
+TID: [-1234] [] [2020-09-09 19:41:50,158]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: UserIdentityManagementAdminService {super-tenant} 
+TID: [-1234] [] [2020-09-09 19:41:50,159]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: UserInformationRecoveryService {super-tenant} 
+TID: [-1234] [] [2020-09-09 19:41:50,160]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.identity.mgt-5.12.387 -  
+TID: [-1234] [] [2020-09-09 19:41:50,408]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: SAMLQueryService {super-tenant} 
+TID: [-1234] [] [2020-09-09 19:41:50,408]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.identity.query.saml-5.4.43 -  
+TID: [-1234] [] [2020-09-09 19:41:50,419]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.identity.recovery-1.1.66 -  
+TID: [-1234] [] [2020-09-09 19:41:50,432]  WARN {org.apache.axis2.description.java2wsdl.DefaultSchemaGenerator} -  We don't support method overloading. Ignoring [doSingleLogout] 
+TID: [-1234] [] [2020-09-09 19:41:50,508]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.identity.webfinger-6.0.168 -  
+TID: [-1234] [] [2020-09-09 19:41:50,597]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: mex-ut {super-tenant} 
+TID: [-1234] [] [2020-09-09 19:41:50,597]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.mex-5.2.20 -  
+TID: [-1234] [] [2020-09-09 19:41:50,601]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: mex-ut2 {super-tenant} 
+TID: [-1234] [] [2020-09-09 19:41:50,601]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.mex2-5.2.20 -  
+TID: [-1234] [] [2020-09-09 19:41:50,877]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: wso2carbon-sts {super-tenant} 
+TID: [-1234] [] [2020-09-09 19:41:50,903]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.sts-5.2.20 -  
+TID: [-1234] [] [2020-09-09 19:41:51,282]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Repository       : /home/wso2user/wso2is-5.8.0/repository/deployment/server/ 
+TID: [-1234] [] [2020-09-09 19:41:51,379]  INFO {org.wso2.carbon.core.multitenancy.eager.TenantLoadingConfig} -  Using tenant lazy loading policy... 
+TID: [-1234] [] [2020-09-09 19:41:51,397]  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} -  Permission cache updated for tenant -1234 
+TID: [-1234] [] [2020-09-09 19:41:52,817]  INFO {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent} -  Claim manager set for class org.wso2.carbon.user.core.common.DefaultRealm 
+TID: [-1234] [] [2020-09-09 19:41:52,822]  INFO {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent} -  Claim manager set for class org.wso2.carbon.user.core.jdbc.JDBCUserStoreManager 
+TID: [-1234] [] [2020-09-09 19:41:52,903]  INFO {org.wso2.balana.ConfigurationStore} -  Loading runtime configuration 
+TID: [-1] [] [2020-09-09 19:41:52,982]  INFO {org.wso2.carbon.identity.entitlement.internal.SchemaBuilder} -  XACML policy schema loaded successfully. 
+TID: [-1234] [] [2020-09-09 19:41:53,892]  INFO {org.wso2.carbon.identity.oauth.uma.xacml.service.internal.AppUMAServiceComponents} -  XACML UMA Handler activated successfully. 
+TID: [-1234] [] [2020-09-09 19:41:53,938]  INFO {org.wso2.carbon.identity.oauth.config.OAuthServerConfiguration} -  The default OAuth token issuer will be used. No custom token generator is set. 
+TID: [-1234] [] [2020-09-09 19:41:54,051]  INFO {org.wso2.carbon.identity.oauth2.internal.OAuth2ServiceComponent} -  PKCE Support enabled. 
+TID: [-1234] [] [2020-09-09 19:41:54,191]  INFO {org.wso2.carbon.identity.sso.saml.admin.FileBasedConfigManager} -  A SSO Service Provider is registered for : wso2.my.dashboard 
+TID: [-1234] [] [2020-09-09 19:41:54,418]  INFO {org.wso2.carbon.identity.application.authentication.framework.store.SessionDataStore} -  Thread pool size for temporary authentication context data delete task: 20 
+TID: [-1234] [] [2020-09-09 19:41:54,577]  INFO {org.wso2.carbon.identity.workflow.impl.internal.WorkflowImplServiceComponent} -  Default BPS profile added to the DB. 
+TID: [-1234] [] [2020-09-09 19:41:54,638]  WARN {org.wso2.carbon.idp.mgt.IdentityProviderManager} -  SAMLMetadataValidityPeriod in identity.xml should be a numeric value 
+TID: [-1234] [] [2020-09-09 19:41:54,639]  WARN {org.wso2.carbon.idp.mgt.IdentityProviderManager} -  SAMLMetadataSigningEnabled in identity.xml should be a boolean value 
+TID: [-1234] [] [2020-09-09 19:41:54,884]  INFO {org.wso2.carbon.identity.authenticator.x509Certificate.internal.X509CertificateServiceComponent} -  X509 Certificate Servlet activated successfully.. 
+TID: [-1234] [] [2020-09-09 19:41:55,216]  INFO {org.wso2.carbon.identity.local.auth.api.core.internal.AuthAPIServiceComponent} -  Auth API Service Component  is activated. 
+TID: [-1234] [] [2020-09-09 19:41:55,741]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher deployment held back and in inactive state :EmailPublisher.xml, Stream validation exception : Stream id_gov_notify_stream:1.0.0 does not exist 
+TID: [-1234] [] [2020-09-09 19:41:55,748]  INFO {org.wso2.carbon.event.publisher.core.internal.util.helper.EventPublisherConfigurationFilesystemInvoker} -  Event Publisher configuration deleted from the file system : IsAnalytics-Publisher-wso2event-AuthenticationData.xml 
+TID: [-1234] [] [2020-09-09 19:41:55,748]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher undeployed successfully : IsAnalytics-Publisher-wso2event-AuthenticationData.xml 
+TID: [-1234] [] [2020-09-09 19:41:55,772]  INFO {org.wso2.carbon.event.publisher.core.internal.util.helper.EventPublisherConfigurationFilesystemInvoker} -  Event Publisher configuration saved in the filesystem : IsAnalytics-Publisher-wso2event-AuthenticationData.xml 
+TID: [-1234] [] [2020-09-09 19:41:55,775]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher deployment held back and in inactive state :IsAnalytics-Publisher-wso2event-AuthenticationData.xml, Stream validation exception : Stream org.wso2.is.analytics.stream.OverallAuthentication:1.0.0 does not exist 
+TID: [-1234] [] [2020-09-09 19:41:55,776]  INFO {org.wso2.carbon.event.publisher.core.internal.util.helper.EventPublisherConfigurationFilesystemInvoker} -  Event Publisher configuration deleted from the file system : IsAnalytics-Publisher-wso2event-OauthTokenIssueRefresh.xml 
+TID: [-1234] [] [2020-09-09 19:41:55,776]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher undeployed successfully : IsAnalytics-Publisher-wso2event-OauthTokenIssueRefresh.xml 
+TID: [-1234] [] [2020-09-09 19:41:55,781]  INFO {org.wso2.carbon.event.publisher.core.internal.util.helper.EventPublisherConfigurationFilesystemInvoker} -  Event Publisher configuration saved in the filesystem : IsAnalytics-Publisher-wso2event-OauthTokenIssueRefresh.xml 
+TID: [-1234] [] [2020-09-09 19:41:55,782]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher deployment held back and in inactive state :IsAnalytics-Publisher-wso2event-OauthTokenIssueRefresh.xml, Stream validation exception : Stream org.wso2.is.analytics.stream.OauthTokenIssuance:1.0.0 does not exist 
+TID: [-1234] [] [2020-09-09 19:41:55,783]  INFO {org.wso2.carbon.event.publisher.core.internal.util.helper.EventPublisherConfigurationFilesystemInvoker} -  Event Publisher configuration deleted from the file system : IsAnalytics-Publisher-wso2event-OauthTokenRevocation.xml 
+TID: [-1234] [] [2020-09-09 19:41:55,783]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher undeployed successfully : IsAnalytics-Publisher-wso2event-OauthTokenRevocation.xml 
+TID: [-1234] [] [2020-09-09 19:41:55,788]  INFO {org.wso2.carbon.event.publisher.core.internal.util.helper.EventPublisherConfigurationFilesystemInvoker} -  Event Publisher configuration saved in the filesystem : IsAnalytics-Publisher-wso2event-OauthTokenRevocation.xml 
+TID: [-1234] [] [2020-09-09 19:41:55,789]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher deployment held back and in inactive state :IsAnalytics-Publisher-wso2event-OauthTokenRevocation.xml, Stream validation exception : Stream org.wso2.is.analytics.stream.OauthTokenRevocation:1.0.0 does not exist 
+TID: [-1234] [] [2020-09-09 19:41:55,790]  INFO {org.wso2.carbon.event.publisher.core.internal.util.helper.EventPublisherConfigurationFilesystemInvoker} -  Event Publisher configuration deleted from the file system : IsAnalytics-Publisher-wso2event-OauthTokenValidation.xml 
+TID: [-1234] [] [2020-09-09 19:41:55,790]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher undeployed successfully : IsAnalytics-Publisher-wso2event-OauthTokenValidation.xml 
+TID: [-1234] [] [2020-09-09 19:41:55,795]  INFO {org.wso2.carbon.event.publisher.core.internal.util.helper.EventPublisherConfigurationFilesystemInvoker} -  Event Publisher configuration saved in the filesystem : IsAnalytics-Publisher-wso2event-OauthTokenValidation.xml 
+TID: [-1234] [] [2020-09-09 19:41:55,796]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher deployment held back and in inactive state :IsAnalytics-Publisher-wso2event-OauthTokenValidation.xml, Stream validation exception : Stream org.wso2.is.analytics.stream.OauthTokenValidation:1.0.0 does not exist 
+TID: [-1234] [] [2020-09-09 19:41:55,796]  INFO {org.wso2.carbon.event.publisher.core.internal.util.helper.EventPublisherConfigurationFilesystemInvoker} -  Event Publisher configuration deleted from the file system : IsAnalytics-Publisher-wso2event-RoleData.xml 
+TID: [-1234] [] [2020-09-09 19:41:55,797]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher undeployed successfully : IsAnalytics-Publisher-wso2event-RoleData.xml 
+TID: [-1234] [] [2020-09-09 19:41:55,801]  INFO {org.wso2.carbon.event.publisher.core.internal.util.helper.EventPublisherConfigurationFilesystemInvoker} -  Event Publisher configuration saved in the filesystem : IsAnalytics-Publisher-wso2event-RoleData.xml 
+TID: [-1234] [] [2020-09-09 19:41:55,802]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher deployment held back and in inactive state :IsAnalytics-Publisher-wso2event-RoleData.xml, Stream validation exception : Stream org.wso2.is.analytics.stream.OverallRoleData:1.0.0 does not exist 
+TID: [-1234] [] [2020-09-09 19:41:55,803]  INFO {org.wso2.carbon.event.publisher.core.internal.util.helper.EventPublisherConfigurationFilesystemInvoker} -  Event Publisher configuration deleted from the file system : IsAnalytics-Publisher-wso2event-SessionData.xml 
+TID: [-1234] [] [2020-09-09 19:41:55,803]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher undeployed successfully : IsAnalytics-Publisher-wso2event-SessionData.xml 
+TID: [-1234] [] [2020-09-09 19:41:55,807]  INFO {org.wso2.carbon.event.publisher.core.internal.util.helper.EventPublisherConfigurationFilesystemInvoker} -  Event Publisher configuration saved in the filesystem : IsAnalytics-Publisher-wso2event-SessionData.xml 
+TID: [-1234] [] [2020-09-09 19:41:55,808]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher deployment held back and in inactive state :IsAnalytics-Publisher-wso2event-SessionData.xml, Stream validation exception : Stream org.wso2.is.analytics.stream.OverallSession:1.0.0 does not exist 
+TID: [-1234] [] [2020-09-09 19:41:55,809]  INFO {org.wso2.carbon.event.publisher.core.internal.util.helper.EventPublisherConfigurationFilesystemInvoker} -  Event Publisher configuration deleted from the file system : IsAnalytics-Publisher-wso2event-UserData.xml 
+TID: [-1234] [] [2020-09-09 19:41:55,809]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher undeployed successfully : IsAnalytics-Publisher-wso2event-UserData.xml 
+TID: [-1234] [] [2020-09-09 19:41:55,814]  INFO {org.wso2.carbon.event.publisher.core.internal.util.helper.EventPublisherConfigurationFilesystemInvoker} -  Event Publisher configuration saved in the filesystem : IsAnalytics-Publisher-wso2event-UserData.xml 
+TID: [-1234] [] [2020-09-09 19:41:55,815]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher deployment held back and in inactive state :IsAnalytics-Publisher-wso2event-UserData.xml, Stream validation exception : Stream org.wso2.is.analytics.stream.OverallUserData:1.0.0 does not exist 
+TID: [-1234] [] [2020-09-09 19:41:55,815]  INFO {org.wso2.carbon.event.publisher.core.internal.util.helper.EventPublisherConfigurationFilesystemInvoker} -  Event Publisher configuration deleted from the file system : MessageFlowConfigurationPublisher.xml 
+TID: [-1234] [] [2020-09-09 19:41:55,816]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher undeployed successfully : MessageFlowConfigurationPublisher.xml 
+TID: [-1234] [] [2020-09-09 19:41:55,823]  INFO {org.wso2.carbon.event.publisher.core.internal.util.helper.EventPublisherConfigurationFilesystemInvoker} -  Event Publisher configuration saved in the filesystem : MessageFlowConfigurationPublisher.xml 
+TID: [-1234] [] [2020-09-09 19:41:55,824]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher deployment held back and in inactive state :MessageFlowConfigurationPublisher.xml, Stream validation exception : Stream org.wso2.esb.analytics.stream.ConfigEntry:1.0.0 does not exist 
+TID: [-1234] [] [2020-09-09 19:41:55,825]  INFO {org.wso2.carbon.event.publisher.core.internal.util.helper.EventPublisherConfigurationFilesystemInvoker} -  Event Publisher configuration deleted from the file system : MessageFlowStatisticsPublisher.xml 
+TID: [-1234] [] [2020-09-09 19:41:55,825]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher undeployed successfully : MessageFlowStatisticsPublisher.xml 
+TID: [-1234] [] [2020-09-09 19:41:55,829]  INFO {org.wso2.carbon.event.publisher.core.internal.util.helper.EventPublisherConfigurationFilesystemInvoker} -  Event Publisher configuration saved in the filesystem : MessageFlowStatisticsPublisher.xml 
+TID: [-1234] [] [2020-09-09 19:41:55,836]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher deployment held back and in inactive state :MessageFlowStatisticsPublisher.xml, Stream validation exception : Stream org.wso2.esb.analytics.stream.FlowEntry:1.0.0 does not exist 
+TID: [-1234] [] [2020-09-09 19:41:55,852]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher undeployed successfully : EmailPublisher.xml 
+TID: [-1234] [] [2020-09-09 19:41:55,862]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  WSO2EventConsumer added to the junction. Stream:id_gov_notify_stream:1.0.0 
+TID: [-1234] [] [2020-09-09 19:41:55,866]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher configuration successfully deployed and in active state : EmailPublisher 
+TID: [-1234] [] [2020-09-09 19:41:55,866]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} -  Stream definition is deployed successfully  : id_gov_notify_stream:1.0.0 
+TID: [-1234] [] [2020-09-09 19:41:55,869]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher undeployed successfully : IsAnalytics-Publisher-wso2event-OauthTokenIssueRefresh.xml 
+TID: [-1234] [] [2020-09-09 19:41:55,906]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  WSO2EventConsumer added to the junction. Stream:org.wso2.is.analytics.stream.OauthTokenIssuance:1.0.0 
+TID: [-1234] [] [2020-09-09 19:41:55,914]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher configuration successfully deployed and in active state : IsAnalytics-Publisher-wso2event-OauthTokenIssueRefresh 
+TID: [-1234] [] [2020-09-09 19:41:55,914]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} -  Stream definition is deployed successfully  : org.wso2.is.analytics.stream.OauthTokenIssuance:1.0.0 
+TID: [-1234] [] [2020-09-09 19:41:55,915]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher undeployed successfully : IsAnalytics-Publisher-wso2event-OauthTokenRevocation.xml 
+TID: [-1234] [] [2020-09-09 19:41:55,946]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  WSO2EventConsumer added to the junction. Stream:org.wso2.is.analytics.stream.OauthTokenRevocation:1.0.0 
+TID: [-1234] [] [2020-09-09 19:41:55,947]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher configuration successfully deployed and in active state : IsAnalytics-Publisher-wso2event-OauthTokenRevocation 
+TID: [-1234] [] [2020-09-09 19:41:55,951]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} -  Stream definition is deployed successfully  : org.wso2.is.analytics.stream.OauthTokenRevocation:1.0.0 
+TID: [-1234] [] [2020-09-09 19:41:55,954]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher undeployed successfully : IsAnalytics-Publisher-wso2event-OauthTokenValidation.xml 
+TID: [-1234] [] [2020-09-09 19:41:55,982]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  WSO2EventConsumer added to the junction. Stream:org.wso2.is.analytics.stream.OauthTokenValidation:1.0.0 
+TID: [-1234] [] [2020-09-09 19:41:55,983]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher configuration successfully deployed and in active state : IsAnalytics-Publisher-wso2event-OauthTokenValidation 
+TID: [-1234] [] [2020-09-09 19:41:55,983]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} -  Stream definition is deployed successfully  : org.wso2.is.analytics.stream.OauthTokenValidation:1.0.0 
+TID: [-1234] [] [2020-09-09 19:41:55,990]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher undeployed successfully : IsAnalytics-Publisher-wso2event-AuthenticationData.xml 
+TID: [-1234] [] [2020-09-09 19:41:56,017]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  WSO2EventConsumer added to the junction. Stream:org.wso2.is.analytics.stream.OverallAuthentication:1.0.0 
+TID: [-1234] [] [2020-09-09 19:41:56,018]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher configuration successfully deployed and in active state : IsAnalytics-Publisher-wso2event-AuthenticationData 
+TID: [-1234] [] [2020-09-09 19:41:56,018]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} -  Stream definition is deployed successfully  : org.wso2.is.analytics.stream.OverallAuthentication:1.0.0 
+TID: [-1234] [] [2020-09-09 19:41:56,019]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher undeployed successfully : IsAnalytics-Publisher-wso2event-RoleData.xml 
+TID: [-1234] [] [2020-09-09 19:41:56,051]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  WSO2EventConsumer added to the junction. Stream:org.wso2.is.analytics.stream.OverallRoleData:1.0.0 
+TID: [-1234] [] [2020-09-09 19:41:56,051]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher configuration successfully deployed and in active state : IsAnalytics-Publisher-wso2event-RoleData 
+TID: [-1234] [] [2020-09-09 19:41:56,052]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} -  Stream definition is deployed successfully  : org.wso2.is.analytics.stream.OverallRoleData:1.0.0 
+TID: [-1234] [] [2020-09-09 19:41:56,053]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher undeployed successfully : IsAnalytics-Publisher-wso2event-SessionData.xml 
+TID: [-1234] [] [2020-09-09 19:41:56,075]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  WSO2EventConsumer added to the junction. Stream:org.wso2.is.analytics.stream.OverallSession:1.0.0 
+TID: [-1234] [] [2020-09-09 19:41:56,075]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher configuration successfully deployed and in active state : IsAnalytics-Publisher-wso2event-SessionData 
+TID: [-1234] [] [2020-09-09 19:41:56,075]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} -  Stream definition is deployed successfully  : org.wso2.is.analytics.stream.OverallSession:1.0.0 
+TID: [-1234] [] [2020-09-09 19:41:56,078]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher undeployed successfully : IsAnalytics-Publisher-wso2event-UserData.xml 
+TID: [-1234] [] [2020-09-09 19:41:56,102]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  WSO2EventConsumer added to the junction. Stream:org.wso2.is.analytics.stream.OverallUserData:1.0.0 
+TID: [-1234] [] [2020-09-09 19:41:56,102]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher configuration successfully deployed and in active state : IsAnalytics-Publisher-wso2event-UserData 
+TID: [-1234] [] [2020-09-09 19:41:56,102]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} -  Stream definition is deployed successfully  : org.wso2.is.analytics.stream.OverallUserData:1.0.0 
+TID: [-1234] [] [2020-09-09 19:41:56,219]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/STRATOS_ROOT].File[/home/wso2user/wso2is-5.8.0/repository/deployment/server/webapps/STRATOS_ROOT] 
+TID: [-1234] [] [2020-09-09 19:41:59,614]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/accountrecoveryendpoint].File[/home/wso2user/wso2is-5.8.0/repository/deployment/server/webapps/accountrecoveryendpoint.war] 
+TID: [-1234] [] [2020-09-09 19:42:01,190]  INFO {org.apache.cxf.endpoint.ServerImpl} -  Setting the server's publish address to be / 
+TID: [-1234] [] [2020-09-09 19:42:01,324]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/health-check/v1.0].File[/home/wso2user/wso2is-5.8.0/repository/deployment/server/webapps/api#health-check#v1.0.war] 
+TID: [-1234] [] [2020-09-09 19:42:02,555]  INFO {java.util.prefs.FileSystemPreferences$2} -  Created system preferences directory in java.home. 
+TID: [-1234] [] [2020-09-09 19:42:02,556]  INFO {java.util.prefs.FileSystemPreferences$1} -  Created user preferences directory. 
+TID: [-1234] [] [2020-09-09 19:42:02,900]  INFO {org.apache.cxf.endpoint.ServerImpl} -  Setting the server's publish address to be / 
+TID: [-1234] [] [2020-09-09 19:42:03,022]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/identity/auth/v1.1].File[/home/wso2user/wso2is-5.8.0/repository/deployment/server/webapps/api#identity#auth#v1.1.war] 
+TID: [-1234] [] [2020-09-09 19:42:04,586]  INFO {org.apache.cxf.endpoint.ServerImpl} -  Setting the server's publish address to be / 
+TID: [-1234] [] [2020-09-09 19:42:04,678]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/identity/config-mgt/v1.0].File[/home/wso2user/wso2is-5.8.0/repository/deployment/server/webapps/api#identity#config-mgt#v1.0.war] 
+TID: [-1234] [] [2020-09-09 19:42:06,113]  INFO {org.apache.cxf.endpoint.ServerImpl} -  Setting the server's publish address to be / 
+TID: [-1234] [] [2020-09-09 19:42:06,218]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/identity/consent-mgt/v1.0].File[/home/wso2user/wso2is-5.8.0/repository/deployment/server/webapps/api#identity#consent-mgt#v1.0.war] 
+TID: [-1234] [] [2020-09-09 19:42:07,546]  INFO {org.apache.cxf.endpoint.ServerImpl} -  Setting the server's publish address to be /decision 
+TID: [-1234] [] [2020-09-09 19:42:07,600]  INFO {org.apache.cxf.endpoint.ServerImpl} -  Setting the server's publish address to be /api 
+TID: [-1234] [] [2020-09-09 19:42:07,703]  INFO {org.reflections.Reflections} -  Reflections took 50 ms to scan 1 urls, producing 50 keys and 77 values  
+TID: [-1234] [] [2020-09-09 19:42:08,113]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/identity/entitlement].File[/home/wso2user/wso2is-5.8.0/repository/deployment/server/webapps/api#identity#entitlement.war] 
+TID: [-1234] [] [2020-09-09 19:42:09,424]  INFO {org.apache.cxf.endpoint.ServerImpl} -  Setting the server's publish address to be / 
+TID: [-1234] [] [2020-09-09 19:42:09,527]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/identity/oauth2/dcr/v1.1].File[/home/wso2user/wso2is-5.8.0/repository/deployment/server/webapps/api#identity#oauth2#dcr#v1.1.war] 
+TID: [-1234] [] [2020-09-09 19:42:11,615]  INFO {org.apache.cxf.endpoint.ServerImpl} -  Setting the server's publish address to be / 
+TID: [-1234] [] [2020-09-09 19:42:11,688]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/identity/oauth2/uma/permission/v1.0].File[/home/wso2user/wso2is-5.8.0/repository/deployment/server/webapps/api#identity#oauth2#uma#permission#v1.0.war] 
+TID: [-1234] [] [2020-09-09 19:42:12,933]  INFO {org.apache.cxf.endpoint.ServerImpl} -  Setting the server's publish address to be / 
+TID: [-1234] [] [2020-09-09 19:42:13,008]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/identity/oauth2/uma/resourceregistration/v1.0].File[/home/wso2user/wso2is-5.8.0/repository/deployment/server/webapps/api#identity#oauth2#uma#resourceregistration#v1.0.war] 
+TID: [-1234] [] [2020-09-09 19:42:14,144]  INFO {org.apache.cxf.endpoint.ServerImpl} -  Setting the server's publish address to be / 
+TID: [-1234] [] [2020-09-09 19:42:14,230]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/identity/oauth2/v1.0].File[/home/wso2user/wso2is-5.8.0/repository/deployment/server/webapps/api#identity#oauth2#v1.0.war] 
+TID: [-1234] [] [2020-09-09 19:42:15,648]  INFO {org.apache.cxf.endpoint.ServerImpl} -  Setting the server's publish address to be / 
+TID: [-1234] [] [2020-09-09 19:42:15,729]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/identity/recovery/v0.9].File[/home/wso2user/wso2is-5.8.0/repository/deployment/server/webapps/api#identity#recovery#v0.9.war] 
+TID: [-1234] [] [2020-09-09 19:42:16,698]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/identity/template/mgt/v1.0.0].File[/home/wso2user/wso2is-5.8.0/repository/deployment/server/webapps/api#identity#template#mgt#v1.0.0.war] 
+TID: [-1234] [] [2020-09-09 19:42:17,850]  INFO {org.apache.cxf.endpoint.ServerImpl} -  Setting the server's publish address to be / 
+TID: [-1234] [] [2020-09-09 19:42:17,928]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/identity/user/v1.0].File[/home/wso2user/wso2is-5.8.0/repository/deployment/server/webapps/api#identity#user#v1.0.war] 
+TID: [-1234] [] [2020-09-09 19:42:18,932]  INFO {org.apache.cxf.endpoint.ServerImpl} -  Setting the server's publish address to be / 
+TID: [-1234] [] [2020-09-09 19:42:19,023]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/users/v1].File[/home/wso2user/wso2is-5.8.0/repository/deployment/server/webapps/api#users#v1.war] 
+TID: [-1234] [] [2020-09-09 19:42:19,625]  INFO {org.wso2.carbon.identity.application.authentication.endpoint.util.TenantDataManager} -  EndpointConfig.properties file loaded from ./repository/conf/identity/EndpointConfig.properties 
+TID: [-1234] [] [2020-09-09 19:42:19,627]  INFO {org.wso2.carbon.identity.application.authentication.endpoint.util.MutualSSLManager} -  EndpointConfig.properties file loaded from ./repository/conf/identity/EndpointConfig.properties 
+TID: [-1234] [] [2020-09-09 19:42:19,640]  INFO {org.wso2.carbon.identity.application.authentication.endpoint.util.EndpointConfigManager} -  EndpointConfig.properties file loaded from ./repository/conf/identity/EndpointConfig.properties 
+TID: [-1234] [] [2020-09-09 19:42:20,652]  INFO {org.apache.jasper.compiler.TldLocationsCache} -  At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+TID: [-1234] [] [2020-09-09 19:42:21,096]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/authenticationendpoint].File[/home/wso2user/wso2is-5.8.0/repository/deployment/server/webapps/authenticationendpoint.war] 
+TID: [-1234] [] [2020-09-09 19:42:21,146]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/emailotpauthenticationendpoint].File[/home/wso2user/wso2is-5.8.0/repository/deployment/server/webapps/emailotpauthenticationendpoint.war] 
+TID: [-1234] [] [2020-09-09 19:42:21,181]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mex].File[/home/wso2user/wso2is-5.8.0/repository/deployment/server/webapps/mex] 
+TID: [-1234] [] [2020-09-09 19:42:22,074]  INFO {org.apache.cxf.endpoint.ServerImpl} -  Setting the server's publish address to be / 
+TID: [-1234] [] [2020-09-09 19:42:22,136]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mexut].File[/home/wso2user/wso2is-5.8.0/repository/deployment/server/webapps/mexut.war] 
+TID: [-1234] [] [2020-09-09 19:42:23,136]  INFO {org.apache.cxf.endpoint.ServerImpl} -  Setting the server's publish address to be / 
+TID: [-1234] [] [2020-09-09 19:42:23,211]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/oauth2].File[/home/wso2user/wso2is-5.8.0/repository/deployment/server/webapps/oauth2.war] 
+TID: [-1234] [] [2020-09-09 19:42:24,154]  INFO {org.apache.cxf.endpoint.ServerImpl} -  Setting the server's publish address to be /Users 
+TID: [-1234] [] [2020-09-09 19:42:24,208]  INFO {org.apache.cxf.endpoint.ServerImpl} -  Setting the server's publish address to be /Groups 
+TID: [-1234] [] [2020-09-09 19:42:24,217]  INFO {org.apache.cxf.endpoint.ServerImpl} -  Setting the server's publish address to be /Me 
+TID: [-1234] [] [2020-09-09 19:42:24,223]  INFO {org.apache.cxf.endpoint.ServerImpl} -  Setting the server's publish address to be /ServiceProviderConfig 
+TID: [-1234] [] [2020-09-09 19:42:24,231]  INFO {org.apache.cxf.endpoint.ServerImpl} -  Setting the server's publish address to be /ResourceTypes 
+TID: [-1234] [] [2020-09-09 19:42:24,238]  INFO {org.apache.cxf.endpoint.ServerImpl} -  Setting the server's publish address to be /Bulk 
+TID: [-1234] [] [2020-09-09 19:42:24,256]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/scim2].File[/home/wso2user/wso2is-5.8.0/repository/deployment/server/webapps/scim2.war] 
+TID: [-1234] [] [2020-09-09 19:42:26,790]  INFO {org.apache.shindig.gadgets.features.FeatureRegistry} -  Resources from res:features/features.txt are loading. 
+TID: [-1234] [] [2020-09-09 19:42:26,797]  INFO {org.apache.shindig.common.xml.XmlUtil} -  The XML processor being used does not support secure parsing. 
+TID: [-1234] [] [2020-09-09 19:42:26,797]  INFO {org.apache.shindig.common.xml.XmlUtil} -  Document builders are being reused. 
+TID: [-1234] [] [2020-09-09 19:42:26,933]  INFO {org.apache.shindig.gadgets.features.FeatureRegistry} -  Resources from res:features-extras/features.txt are loading. 
+TID: [-1234] [] [2020-09-09 19:42:26,948]  INFO {org.apache.shindig.gadgets.features.FeatureRegistry} -  Resources from res:wso2features/features.txt are loading. 
+TID: [-1234] [] [2020-09-09 19:42:26,956]  WARN {org.apache.shindig.gadgets.features.FeatureRegistry} -  The container.site.gadget feature with definition at res:wso2features/container.site.gadget/feature.xml is being overridden. 
+TID: [-1234] [] [2020-09-09 19:42:27,086]  INFO {org.apache.shindig.config.JsonContainerConfigLoader} -  Resources from containers/default/container.js are loading. 
+TID: [-1234] [] [2020-09-09 19:42:27,086]  INFO {org.apache.shindig.config.JsonContainerConfigLoader} -  Container configuration containers/default/container.js is being read. 
+TID: [-1234] [] [2020-09-09 19:42:27,208]  INFO {org.apache.shindig.wso2.ext.impl.WhitelistImpl} -  URL: https://WSO2ISLoadBalancerDev-145229938.us-east-2.elb.amazonaws.com/portal compiled as the default whitelisted backend URI. 
+TID: [-1234] [] [2020-09-09 19:42:27,446]  INFO {org.apache.shindig.gadgets.oauth2.logger.FilteredLogger} -  Using random key for OAuth2 client-side state encryption 
+TID: [-1234] [] [2020-09-09 19:42:27,447]  INFO {org.apache.shindig.gadgets.oauth2.logger.FilteredLogger} -  OAuth2CrypterProvider constructor 
+TID: [-1234] [] [2020-09-09 19:42:27,458]  INFO {org.apache.shindig.gadgets.oauth.OAuthModule} -  The OAuth signing key from res://wso2carbon.pem is loading. 
+TID: [-1234] [] [2020-09-09 19:42:27,462]  INFO {org.apache.shindig.gadgets.oauth.OAuthModule$OAuthCrypterProvider} -  Using random key for OAuth client-side state encryption 
+TID: [-1234] [] [2020-09-09 19:42:27,462]  INFO {org.apache.shindig.gadgets.oauth.OAuthModule} -  A random key for OAuth client-side state encryption is being used. 
+TID: [-1234] [] [2020-09-09 19:42:27,584]  INFO {org.apache.shiro.realm.AuthorizingRealm} -  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained. 
+TID: [-1234] [] [2020-09-09 19:42:27,585]  INFO {org.apache.shiro.config.IniSecurityManagerFactory} -  Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur. 
+TID: [-1234] [] [2020-09-09 19:42:27,592]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/shindig].File[/home/wso2user/wso2is-5.8.0/repository/deployment/server/webapps/shindig.war] 
+TID: [-1234] [] [2020-09-09 19:42:27,618]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/smsotpauthenticationendpoint].File[/home/wso2user/wso2is-5.8.0/repository/deployment/server/webapps/smsotpauthenticationendpoint.war] 
+TID: [-1234] [] [2020-09-09 19:42:27,687]  INFO {org.wso2.carbon.identity.application.authentication.endpoint.util.TenantDataManager} -  EndpointConfig.properties file loaded from ./repository/conf/identity/EndpointConfig.properties 
+TID: [-1234] [] [2020-09-09 19:42:27,688]  INFO {org.wso2.carbon.identity.application.authentication.endpoint.util.MutualSSLManager} -  EndpointConfig.properties file loaded from ./repository/conf/identity/EndpointConfig.properties 
+TID: [-1234] [] [2020-09-09 19:42:27,690]  INFO {org.wso2.carbon.identity.application.authentication.endpoint.util.EndpointConfigManager} -  EndpointConfig.properties file loaded from ./repository/conf/identity/EndpointConfig.properties 
+TID: [-1234] [] [2020-09-09 19:42:27,693]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/totpauthenticationendpoint].File[/home/wso2user/wso2is-5.8.0/repository/deployment/server/webapps/totpauthenticationendpoint.war] 
+TID: [-1234] [] [2020-09-09 19:42:28,988]  INFO {org.apache.cxf.endpoint.ServerImpl} -  Setting the server's publish address to be /Users 
+TID: [-1234] [] [2020-09-09 19:42:29,074]  INFO {org.apache.cxf.endpoint.ServerImpl} -  Setting the server's publish address to be /Groups 
+TID: [-1234] [] [2020-09-09 19:42:29,092]  INFO {org.apache.cxf.endpoint.ServerImpl} -  Setting the server's publish address to be /Bulk 
+TID: [-1234] [] [2020-09-09 19:42:29,140]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/wso2].File[/home/wso2user/wso2is-5.8.0/repository/deployment/server/webapps/wso2.war] 
+TID: [-1234] [] [2020-09-09 19:42:29,222]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/x509certificateauthenticationendpoint].File[/home/wso2user/wso2is-5.8.0/repository/deployment/server/webapps/x509certificateauthenticationendpoint.war] 
+TID: [-1234] [] [2020-09-09 19:42:30,202]  INFO {JAGGERY.app:js} -  server url was not found under jaggery.conf file. Therefore connecting to the services same as the deployed carbon server 
+TID: [-1234] [] [2020-09-09 19:42:30,209]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/dashboard].File[/home/wso2user/wso2is-5.8.0/repository/deployment/server/jaggeryapps/dashboard] 
+TID: [-1234] [] [2020-09-09 19:42:30,268]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/portal].File[/home/wso2user/wso2is-5.8.0/repository/deployment/server/jaggeryapps/portal] 
+TID: [-1234] [] [2020-09-09 19:42:30,273]  INFO {org.wso2.carbon.humantask.core.HumanTaskSchedulerInitializer} -  Starting HumanTasks Scheduler 
+TID: [-1234] [] [2020-09-09 19:42:30,289]  INFO {openjpa.Runtime} -  Starting OpenJPA 2.2.0-wso2v1 
+TID: [-1234] [] [2020-09-09 19:42:30,471]  INFO {openjpa.jdbc.JDBC} -  Using dictionary class "org.apache.openjpa.jdbc.sql.H2Dictionary". 
+TID: [-1234] [] [2020-09-09 19:42:31,117]  INFO {org.wso2.carbon.core.transports.http.HttpTransportListener} -  HTTP port        : 9763 
+TID: [-1234] [] [2020-09-09 19:42:31,117]  INFO {org.wso2.carbon.core.transports.http.HttpsTransportListener} -  HTTPS port       : 9443 
+TID: [-1234] [] [2020-09-09 19:42:31,127]  INFO {org.wso2.carbon.core.clustering.hazelcast.HazelcastClusteringAgent} -  Cluster domain: wso2.carbon.domain 
+TID: [-1234] [] [2020-09-09 19:42:31,133]  INFO {org.wso2.carbon.core.clustering.hazelcast.HazelcastClusteringAgent} -  Loading hazelcast configuration from axis2 clustering configuration 
+TID: [-1234] [] [2020-09-09 19:42:31,164]  INFO {org.wso2.carbon.core.clustering.hazelcast.HazelcastClusteringAgent} -  Using aws based membership management scheme 
+TID: [-1234] [] [2020-09-09 19:42:31,183]  INFO {org.wso2.carbon.core.clustering.hazelcast.HazelcastClusteringAgent} -  Hazelcast cluster is initializing... 
+TID: [-1234] [] [2020-09-09 19:42:41,214]  INFO {org.wso2.carbon.core.clustering.hazelcast.HazelcastClusteringAgent} -  Hazelcast initialized in 10031ms 
+TID: [-1234] [] [2020-09-09 19:42:41,225]  INFO {org.wso2.carbon.core.clustering.hazelcast.HazelcastClusteringAgent} -  Local member: [a8dde94d-1ce8-49cb-9552-62f65ab7ba8a] - Host:10.1.1.151, Remote Host:null, Port: 5701, HTTP:9763, HTTPS:9443, Domain: wso2.carbon.domain, Sub-domain:worker, Active:true 
+TID: [-1234] [] [2020-09-09 19:42:41,290]  WARN {org.wso2.carbon.event.processor.manager.core.internal.CarbonEventManagementService} -  CEP started with clustering enabled, but SingleNode configuration given. 
+TID: [-1234] [] [2020-09-09 19:42:41,298]  INFO {org.wso2.carbon.core.clustering.hazelcast.HazelcastClusteringAgent} -  Cluster initialization completed 
+TID: [-1234] [] [2020-09-09 19:42:41,397]  INFO {org.apache.tomcat.util.net.NioSelectorPool} -  Using a shared selector for servlet write/read 
+TID: [-1234] [] [2020-09-09 19:42:41,465]  INFO {org.apache.tomcat.util.net.NioSelectorPool} -  Using a shared selector for servlet write/read 
+TID: [-1234] [] [2020-09-09 19:42:41,564]  INFO {org.wso2.carbon.core.init.JMXServerManager} -  JMX Service URL  : service:jmx:rmi://localhost:11111/jndi/rmi://localhost:9999/jmxrmi 
+TID: [-1234] [] [2020-09-09 19:42:41,643]  INFO {org.wso2.carbon.bpel.core.ode.integration.BPELSchedulerInitializer} -  Starting BPS Scheduler 
+TID: [-1234] [] [2020-09-09 19:42:41,650]  INFO {openjpa.Runtime} -  Starting OpenJPA 2.2.0-wso2v1 
+TID: [-1234] [] [2020-09-09 19:42:41,651]  INFO {openjpa.jdbc.JDBC} -  Using dictionary class "org.apache.openjpa.jdbc.sql.H2Dictionary" (H2 1.3.175 (2014-01-18) ,H2 JDBC Driver 1.3.175 (2014-01-18)). 
+TID: [-1234] [] [2020-09-09 19:42:41,773]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} -  Server           :  WSO2 Identity Server-5.8.0 
+TID: [-1234] [] [2020-09-09 19:42:41,774]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} -  WSO2 Carbon started in 77 sec 
+TID: [-1234] [] [2020-09-09 19:42:41,835]  INFO {org.wso2.carbon.healthcheck.api.core.internal.HealthMonitorServiceComponent} -  Carbon health monitoring service is activated.. 
+TID: [-1] [] [2020-09-09 19:42:42,214]  INFO {org.wso2.callhome.CallHomeExecutor} -  
+..................................
+There are no new updates available
+.................................. 
+TID: [-1234] [] [2020-09-09 19:42:42,423]  INFO {org.wso2.carbon.ui.internal.CarbonUIServiceComponent} -  Mgt Console URL  : https://WSO2ISLoadBalancerDev-145229938.us-east-2.elb.amazonaws.com:443/carbon/ 
